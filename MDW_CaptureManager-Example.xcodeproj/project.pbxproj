@@ -19,6 +19,8 @@
 		49258B6A19B379EE002A0E00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49258B5219B379ED002A0E00 /* UIKit.framework */; };
 		49258B7219B379EE002A0E00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49258B7019B379EE002A0E00 /* InfoPlist.strings */; };
 		49258B7419B379EE002A0E00 /* MDW_CaptureManager_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49258B7319B379EE002A0E00 /* MDW_CaptureManager_ExampleTests.m */; };
+		49258B8119B37A22002A0E00 /* MDW_CaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49258B7E19B37A22002A0E00 /* MDW_CaptureManager.m */; };
+		49258B8219B37A22002A0E00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49258B8019B37A22002A0E00 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		49258B6F19B379EE002A0E00 /* MDW_CaptureManager-ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDW_CaptureManager-ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		49258B7119B379EE002A0E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49258B7319B379EE002A0E00 /* MDW_CaptureManager_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDW_CaptureManager_ExampleTests.m; sourceTree = "<group>"; };
+		49258B7D19B37A22002A0E00 /* MDW_CaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDW_CaptureManager.h; sourceTree = "<group>"; };
+		49258B7E19B37A22002A0E00 /* MDW_CaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDW_CaptureManager.m; sourceTree = "<group>"; };
+		49258B7F19B37A22002A0E00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49258B8019B37A22002A0E00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 		49258B5419B379ED002A0E00 /* MDW_CaptureManager-Example */ = {
 			isa = PBXGroup;
 			children = (
+				49258B7D19B37A22002A0E00 /* MDW_CaptureManager.h */,
+				49258B7E19B37A22002A0E00 /* MDW_CaptureManager.m */,
+				49258B7F19B37A22002A0E00 /* ViewController.h */,
+				49258B8019B37A22002A0E00 /* ViewController.m */,
 				49258B5D19B379ED002A0E00 /* AppDelegate.h */,
 				49258B5E19B379ED002A0E00 /* AppDelegate.m */,
 				49258B6019B379ED002A0E00 /* Images.xcassets */,
@@ -241,6 +251,8 @@
 			files = (
 				49258B5F19B379ED002A0E00 /* AppDelegate.m in Sources */,
 				49258B5B19B379ED002A0E00 /* main.m in Sources */,
+				49258B8219B37A22002A0E00 /* ViewController.m in Sources */,
+				49258B8119B37A22002A0E00 /* MDW_CaptureManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
